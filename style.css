@@ -1,0 +1,59 @@
+:root{
+    --orange: hsl(25, 97%, 53%);
+
+    --lightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.attribution{
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+}
+
+.attribution a{
+    color: yellow;
+}
+
+.container{
+    background-image: linear-gradient(var(--darkBlue), var(--veryDarkBlue));
+    aspect-ratio: 1/1;
+    width: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.ratingState h1{
+    color: white;
+}
+
+.ratingState p{
+    color: var(--lightGrey);
+}
+
+.ratingState svg{
+    background-color: var(--darkBlue);
+    width: 50px;
+    height: 50px;
+}
+
+.endingState{
+    display: none;
+}
