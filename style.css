@@ -54,6 +54,34 @@ body{
     height: 50px;
 }
 
+.ratingButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating{
+    width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: var(--darkBlue);
+    color: var(--lightGrey);
+    font-size: 16px;
+}
+
+#submit{
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--orange);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
 .endingState{
     display: none;
 }
